@@ -1,74 +1,115 @@
-body{
+body {
     background-color: rgb(159, 226, 204);
     color: black;
 }
-.container{
+
+.container {
     width: 90%;
     border: 1px solid black;
     border-radius: 5px;
     background-color: whitesmoke;
     color: black;
-    padding-top:0px;
+    padding-top: 0px;
     margin: auto;
 }
-.h51{
+
+.h51 {
     padding-top: 0px;
     text-align: center;
     margin-top: 20px;
 }
-h1{
+
+h1 {
     text-align: center;
 }
-.form{
-    position: relative;
-    margin-left :510px;
+
+.form {
+    /* position: relative;
+    margin-left :510px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
 }
-.h52{
+
+.h52 {
     display: inline-block;
     margin-left: 150px;
 
 }
-select{ margin-left: 15px;
-   
+
+select {
+    margin-left: 15px;
+
 }
-.freecode{
+
+.freecode {
     margin-left: 330px;
 }
-.how{
+
+.how {
     margin-left: 205px;
     display: inline;
 
 }
-.radio{
+
+.radio {
     display: inline;
     margin-left: 20px;
     position: absolute;
     background-color: rgb(255, 255, 255);
-    margin
+    /* margin */
 }
-.notsure{
-margin-left: 575px;
-}
-.maybe{
+
+.notsure {
     margin-left: 575px;
 }
-.option{
+
+.maybe {
+    margin-left: 575px;
+}
+
+.option {
     position: absolute;
 }
-.fcc{
+
+.fcc {
     margin-left: 250px;
     display: inline;
 }
-.ffsec{
+
+.ffsec {
     margin-left: 60px;
 }
-select{
+
+select {
     margin-left: 30px;
 }
-.things{
+
+.things {
     margin-left: 190px;
 
 }
-.chh{
-    margin-left:350px ;
+
+.chh {
+    margin-left: 350px;
+}
+
+.form-group {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.label {
+    display: flex;
+    /* min-width: 100px; */
+    justify-content: end;
+
+}
+
+.side {
+    width: 100%;
 }
