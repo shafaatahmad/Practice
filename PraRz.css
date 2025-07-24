@@ -1,0 +1,146 @@
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+body{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 1),rgba(15, 7, 134, 0.5)),
+     url(singletree.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+ul{
+    display: flex;
+}
+ul li{
+    margin:0 30px;
+     list-style: none;
+    }
+a{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: smaller;
+    transition: all 0.5 ease-in;
+}
+a:hover{
+    background-color: rgb(255, 115, 0);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 10px 50px;
+
+}
+.navbar h2{
+    font-size: xx-large;
+    color: rgb(255, 123, 0);
+   
+}
+input{
+    outline: none;
+    background-color: transparent;
+     border: 1px solid rgb(235, 133, 0);
+     height: 30px;
+     width: 250px;
+
+
+
+}
+.search button{
+    background-color: rgb(255, 102, 1);
+     border: none;
+     width: 90px;
+     height: 33px;
+     margin-left: 1px;
+     padding: 7px 10px 10px 10px;
+     font-weight: bold;
+     
+}
+.container{
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.main{
+    height: 50vh;
+    width: 48vw;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.mainheading h2{
+font-size: xx-large;
+ font-family: 'Times New Roman', Times, serif; 
+
+}
+.mainheading h1{
+    font-size: xxx-large;
+     font-family: 'Times New Roman', Times, serif; 
+     color: rgb(255, 102, 1);
+}
+.pra{
+    width: 90%;
+    margin-top: 10px;
+}
+.pra button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.login{
+    background-color: rgba(0, 5, 46, 0.486);
+    backdrop-filter: blur;
+    border-radius: 20px;
+    height: 60vh;
+    width: 20vw;
+    margin-top: 110px;
+    margin-right: 150px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+}
+.log{
+    width: 90%;
+    height: 10%;
+    background-color: white;
+    color: rgb(255, 123, 0);
+    font-weight: bold;
+    border-radius: 10px;
+    
+
+}
+.sum {
+    width: 90%;
+    height: 10%;
+    background-color: rgb(255, 72, 0);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.sig{
+    color: rgb(255, 102, 1);
+}
+input{
+    border-radius: 5px;
+}
+@media screen and (max-width: 800px;){
+    .input{
+        width: 50px;
+    }
+}
+   
+   
